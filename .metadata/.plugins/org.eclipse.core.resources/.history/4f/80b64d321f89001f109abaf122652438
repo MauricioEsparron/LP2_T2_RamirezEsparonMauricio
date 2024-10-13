@@ -1,0 +1,16 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/")
+public class AreaController {
+
+}

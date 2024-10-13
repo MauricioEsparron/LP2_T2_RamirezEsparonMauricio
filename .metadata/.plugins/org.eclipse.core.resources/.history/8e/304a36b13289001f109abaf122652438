@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Listar Áreas</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Listado de Áreas</h1>
+		<a href="/area/registrar_area" class="btn btn-primary mb-3">Crear Nueva Área</a>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="area : ${lista_area}">
+                    <td th:text="${area.id}"></td>
+                    <td th:text="${area.nombreArea}"></td>
+                    <td>
+                        <a th:href="@{/area/detalle_area/{id}(id=${area.id})}" class="btn btn-info">Detalles</a>
+                        <a th:href="@{/area/editar_area/{id}(id=${area.id})}" class="btn btn-warning">Editar</a>
+                        <a th:href="@{area/delete/{id}(id=${area.id})}" class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

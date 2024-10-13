@@ -1,0 +1,69 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.EmpleadoEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.repository.EmpleadoRepository;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.EmpleadosService;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@Service
+public class EmpleadoServiceImpl implements EmpleadosService {
+
+    @Autowired
+    private EmpleadoRepository empleadoRepository;
+
+    @Autowired
+    private AreaService areaService;
+	
+	@Override
+	public List<EmpleadoEntity> buscarEmplados() {
+		// TODO Auto-generated method stub
+		return empleadoRepository.findAll();
+	}
+
+	@Override
+	public void crearEmpleado(EmpleadoEntity empleado) {
+		empleadoRepository.save(empleado);
+		
+	}
+
+	@Override
+	public EmpleadoEntity buscarEmpleadoPorId(Integer id) {
+		// TODO Auto-generated method stub
+		return empleadoRepository.findById(id)
+				.get();
+	}
+
+	@Override
+	public void actualizarUsuario(Integer id, EmpleadoEntity usuarioActualizado) {
+		// TODO Auto-generated method stub
+		EmpleadoEntity usuarioEncontrado = buscarUsuarioPorId(id);
+		if(usuarioEncontrado == null) {
+			throw new RuntimeException("Usuario no encontrado");
+		}
+		try {
+			usuarioEncontrado.setCorreo(usuarioActualizado.getCorreo());
+			usuarioEncontrado.setNombre(usuarioActualizado.getNombre());
+			usuarioEncontrado.setPassword(usuarioActualizado.getPassword());
+			usuarioRepository.save(usuarioEncontrado);
+		}catch (Exception e) {
+			throw new RuntimeException("Error al actualizar");
+		}
+		
+		
+	}
+
+	@Override
+	public void eliminarEmpleado(Integer id) {
+		// TODO Auto-generated method stub
+		EmpleadoEntity usuarioEncontrado = buscarUsuarioPorId(id);
+		if(usuarioEncontrado == null) {
+			throw new RuntimeException("Usuario no encontrado");
+		}
+		usuarioRepository.delete(usuarioEncontrado);
+		
+	}
+}

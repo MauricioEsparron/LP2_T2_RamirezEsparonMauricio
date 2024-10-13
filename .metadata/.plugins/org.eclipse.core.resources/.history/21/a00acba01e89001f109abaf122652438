@@ -1,0 +1,70 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/areas")
+public class AreaController {
+
+    @Autowired
+    private AreaService areaService;
+
+    // Ruta para listar todas las áreas
+    @GetMapping
+    public String listarAreas(Model model) {
+        List<AreaEntity> areas = areaService.listarAreas();
+        model.addAttribute("lista_areas", areas); // Cambié el nombre del atributo
+        return "listar_areas"; // Retorna la vista para listar áreas
+    }
+
+    // Ruta para mostrar el formulario de creación de área
+    @GetMapping("/crear")
+    public String mostrarCrearArea(Model model) {
+        model.addAttribute("area", new AreaEntity()); // Inicializa un nuevo objeto AreaEntity
+        return "crear_area"; // Retorna la vista para crear área
+    }
+
+    // Ruta para registrar una nueva área
+    @PostMapping("/crear")
+    public String registrarArea(@ModelAttribute("area") AreaEntity area) {
+        areaService.crearArea(area); // Crea un nuevo área
+        return "redirect:/areas"; // Redirige al listado de áreas
+    }
+
+    // Ruta para ver los detalles de un área
+    @GetMapping("/detalle/{id}")
+    public String verDetalleArea(Model model, @PathVariable("id") Integer id) {
+        AreaEntity area = areaService.buscarAreaPorId(id);
+        model.addAttribute("area", area);
+        return "detalle_area"; // Retorna la vista para ver detalles del área
+    }
+
+    // Ruta para eliminar un área
+    @GetMapping("/delete/{id}")
+    public String eliminarArea(@PathVariable("id") Integer id) {
+        areaService.eliminarArea(id); // Implementa este método en tu servicio
+        return "redirect:/areas"; // Redirige al listado de áreas
+    }
+
+    // Ruta para mostrar el formulario de edición de un área
+    @GetMapping("/editar/{id}")
+    public String mostrarEditarArea(@PathVariable("id") Integer id, Model model) {
+        AreaEntity area = areaService.buscarAreaPorId(id);
+        model.addAttribute("area", area);
+        return "editar_area"; // Retorna la vista para editar área
+    }
+
+    // Ruta para actualizar un área
+    @PostMapping("/editar/{id}")
+    public String actualizarArea(@PathVariable("id") Integer id, @ModelAttribute("area") AreaEntity area) {
+        areaService.actualizarArea(id, area); // Implementa este método en tu servicio
+        return "redirect:/areas"; // Redirige al listado de áreas
+    }
+}

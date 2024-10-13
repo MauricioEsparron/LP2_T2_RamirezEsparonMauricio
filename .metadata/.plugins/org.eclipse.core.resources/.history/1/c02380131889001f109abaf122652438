@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Editar Área</title>
+</head>
+<body>
+    <h1>Editar Área</h1>
+    <form th:action="@{/editar_area}" th:object="${area}" method="post">
+        <input type="hidden" th:field="*{area_id}" />
+        <label for="nombre_area">Nombre del Área:</label>
+        <input type="text" id="nombre_area" th:field="*{nombre_area}" required />
+        <button type="submit">Actualizar</button>
+    </form>
+    <a href="/listar_areas">Volver a la lista de áreas</a>
+</body>
+</html>

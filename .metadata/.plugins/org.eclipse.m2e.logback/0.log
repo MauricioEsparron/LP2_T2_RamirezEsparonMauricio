@@ -1,0 +1,678 @@
+2024-10-12 22:46:13,088 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-10-12 22:47:35,289 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-12 22:47:38,505 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pe.com.cibertec:LP2_T2_RamirezEsparronMauricio:0.0.1-SNAPSHOT @ C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\pom.xml.
+2024-10-12 22:47:43,116 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LP2_T2_RamirezEsparronMauricio/src/main/java
+2024-10-12 22:47:43,120 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LP2_T2_RamirezEsparronMauricio/src/main/resources
+2024-10-12 22:47:43,134 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LP2_T2_RamirezEsparronMauricio/src/main/resources
+2024-10-12 22:47:43,146 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LP2_T2_RamirezEsparronMauricio/src/test/java
+2024-10-12 22:47:43,149 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LP2_T2_RamirezEsparronMauricio/src/test/resources
+2024-10-12 22:47:45,819 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:47:45,846 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:47:45,856 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:47:47,096 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 5.00 sec 
+2024-10-12 22:47:48,046 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:47:48,055 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:47:48,065 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:48:51,214 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:48:51,236 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:48:51,248 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:50:19,074 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:50:19,089 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:50:19,103 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:51:00,450 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:51:00,463 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:51:00,471 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:51:03,998 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:51:04,009 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:51:04,016 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:51:53,604 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:51:53,617 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:51:53,629 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:52:16,341 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:52:16,361 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:52:16,371 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:52:20,019 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:52:20,047 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:52:20,060 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:52:31,389 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:52:31,416 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:52:31,426 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:52:33,956 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:52:33,968 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:52:33,977 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:52:53,354 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:52:53,371 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:52:53,381 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:52:56,769 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:52:56,789 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:52:56,795 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:53:19,690 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:53:19,700 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:53:19,707 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:53:23,572 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:53:23,581 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:53:23,588 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:53:40,424 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:53:40,434 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:53:40,440 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:53:42,864 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:53:42,881 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:53:42,888 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:53:52,560 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:53:52,570 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:53:52,576 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:54:09,846 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:54:09,858 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:54:09,864 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:54:12,319 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:54:12,331 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:54:12,338 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:54:30,399 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:54:30,412 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:54:30,421 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:55:24,076 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:55:24,088 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:55:24,095 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:55:44,091 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:55:44,103 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:55:44,109 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:55:47,474 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:55:47,485 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:55:47,491 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:55:59,953 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:55:59,965 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:55:59,972 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:56:03,377 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:56:03,386 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:56:03,392 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:58:42,088 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 22:58:42,093 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2024-10-12 22:58:42,121 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:59:38,713 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:59:38,727 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2024-10-12 22:59:38,743 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 22:59:46,085 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 22:59:46,099 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2024-10-12 22:59:46,116 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:02:45,970 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:02:45,977 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:02:45,986 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:02:51,686 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:02:51,693 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:02:51,701 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:03:07,151 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:03:07,158 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:03:07,164 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:03:17,411 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:03:17,414 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:03:17,426 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:03:27,594 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:03:27,600 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:03:27,610 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:03:31,209 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:03:31,213 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:03:31,223 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:04:06,196 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:04:06,201 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:04:06,209 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:04:08,645 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:04:08,649 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:04:08,658 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:08:08,740 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:08:08,744 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:08:08,753 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:08:17,560 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:08:17,566 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:08:17,575 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:08:38,916 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:08:38,920 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:08:38,932 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:08:48,349 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:08:48,356 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:08:48,368 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:11:30,778 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:11:30,789 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:11:30,799 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:11:36,710 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:11:36,721 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:11:36,727 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:14:56,918 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:14:56,922 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:14:56,931 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:15:50,986 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:15:50,992 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:15:51,004 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:16:10,448 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:16:10,451 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:16:10,462 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:20:06,123 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:20:06,135 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:20:06,144 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:20:14,633 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:20:14,638 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:20:14,645 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:22:10,410 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:22:10,416 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:22:10,423 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:26:35,454 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:26:35,466 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:26:35,475 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:27:12,200 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:27:12,210 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:27:12,218 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:29:20,165 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:29:20,177 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:29:20,187 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:30:06,708 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:30:06,720 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:30:06,733 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:30:23,300 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:30:23,309 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:30:23,318 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:33:48,105 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:33:48,110 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:33:48,118 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:36:47,832 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:36:47,836 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:36:47,845 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:39:25,719 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:39:25,723 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:39:25,734 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:42:28,719 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:42:28,723 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:42:28,732 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:44:13,017 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:44:13,021 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:44:13,028 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:46:56,101 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:46:56,120 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-12 23:46:56,133 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:47:11,850 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:47:11,853 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:47:11,861 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:47:22,722 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:47:22,728 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:47:22,741 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:47:38,992 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:47:38,997 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:47:39,004 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:47:42,288 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:47:42,292 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:47:42,303 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:47:55,473 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:47:55,479 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:47:55,486 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:47:57,896 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:47:57,901 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:47:57,912 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:50:12,101 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:50:12,113 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:50:12,127 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:50:27,937 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:50:27,942 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:50:27,953 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:50:45,292 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-12 23:50:45,298 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:50:45,307 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:52:54,104 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:52:54,115 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:52:54,127 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:53:31,073 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:53:31,087 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:53:31,103 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:54:16,254 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:54:16,274 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:54:16,287 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:54:40,232 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:54:40,243 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:54:40,256 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:55:03,633 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:55:03,645 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:55:03,657 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:55:42,685 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:55:42,697 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:55:42,711 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:56:17,533 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:56:17,572 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:56:17,588 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:57:47,063 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:57:47,083 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:57:47,095 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:57:52,753 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:57:52,775 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:57:52,786 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-12 23:58:02,867 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-12 23:58:02,877 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-12 23:58:02,889 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:00:08,142 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:00:08,157 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-13 00:00:08,171 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:01:31,772 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:01:31,784 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-13 00:01:31,797 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:02:24,956 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:02:24,962 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:02:24,970 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:03:46,024 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:03:46,030 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:03:46,037 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:04:40,864 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:04:40,875 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-10-13 00:04:40,889 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:05:36,695 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:05:36,699 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-13 00:05:36,711 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:07:25,358 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:07:25,363 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:07:25,370 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:08:08,360 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:08:08,366 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:08:08,373 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:08:49,624 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:08:49,630 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:08:49,637 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:12:53,844 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:12:53,858 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-10-13 00:12:53,873 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:13:43,435 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:13:43,441 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-10-13 00:13:43,452 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:17:50,762 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:17:50,777 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-10-13 00:17:50,792 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:18:03,676 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:18:03,688 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-10-13 00:18:03,703 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:18:18,828 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:18:18,837 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-10-13 00:18:18,849 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:19:47,272 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:19:47,278 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:19:47,287 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:22:06,926 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:22:06,935 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:22:06,945 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:24:12,607 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:24:12,617 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:24:12,626 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:37:32,644 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:37:32,652 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:37:32,662 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:38:46,249 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:38:46,262 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 20 resources from src\main\resources to target\classes
+2024-10-13 00:38:46,336 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:39:34,971 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:39:34,989 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:39:34,999 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:41:53,040 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:41:53,074 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:41:53,178 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:42:01,087 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:42:01,115 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:42:01,184 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:43:32,020 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:43:32,039 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:43:32,079 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:44:26,686 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:44:26,708 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:44:26,751 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:45:16,878 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:45:16,932 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:45:16,998 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:50:12,283 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:50:12,304 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:50:12,341 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:51:17,924 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:51:17,947 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:51:17,957 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:52:48,642 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 00:52:48,663 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:52:48,675 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:55:33,021 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:55:33,041 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:55:33,098 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 00:58:09,960 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 00:58:09,979 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 00:58:10,021 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:00:12,496 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:00:12,524 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:00:12,536 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:00:31,042 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:00:31,077 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:00:31,087 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:01:18,813 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:01:18,833 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:01:18,842 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:02:10,878 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:02:10,900 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:02:10,952 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:02:54,867 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:02:54,891 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:02:54,938 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:03:14,862 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:03:14,883 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:03:14,918 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:05:01,685 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:05:01,704 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:05:01,744 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:05:20,600 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:05:20,615 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:05:20,664 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:05:38,815 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:05:38,836 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:05:38,896 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:06:21,059 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:06:21,082 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:06:21,130 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:06:26,965 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:06:26,983 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:06:27,033 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:09:10,735 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:09:10,755 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:09:10,797 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:10:25,723 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:10:25,750 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:10:25,790 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:10:38,022 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:10:38,041 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:10:38,086 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:10:59,727 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:10:59,748 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:10:59,792 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:11:15,773 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:11:15,795 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:11:15,852 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:12:18,471 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:12:18,491 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:12:18,533 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:13:07,527 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:13:07,547 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:13:07,595 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:14:24,480 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:14:24,505 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:14:24,554 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:14:40,251 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:14:40,273 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:14:40,313 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:15:49,952 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:15:49,975 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:15:50,017 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:15:59,433 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:15:59,455 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:15:59,494 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:16:08,474 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:16:08,501 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:16:08,549 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:16:49,255 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:16:49,277 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:16:49,328 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:16:54,935 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:16:54,963 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:16:55,011 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:17:04,298 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:17:04,319 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:17:04,359 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:17:11,495 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:17:11,513 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:17:11,567 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:17:54,245 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:17:54,275 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:17:54,317 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:18:26,736 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:18:26,756 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:18:26,802 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:18:41,729 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:18:41,746 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:18:41,789 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:19:23,370 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:19:23,390 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:19:23,423 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:19:24,676 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:19:24,694 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:19:24,738 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:20:00,798 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:20:00,818 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:20:00,853 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:20:32,008 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:20:32,027 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:20:32,065 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:21:31,539 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:21:31,560 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:21:31,603 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:22:22,954 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:22:22,972 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:22:23,015 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:22:24,339 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:22:24,355 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:22:24,400 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:23:01,334 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:23:01,352 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:23:01,389 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:23:56,706 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:23:56,736 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:23:56,836 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:24:00,785 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:24:00,805 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:24:00,848 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:24:02,793 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:24:02,811 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:24:02,850 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:24:10,116 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:24:10,142 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2024-10-13 01:24:10,204 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:24:38,078 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:24:38,098 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:24:38,106 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:25:08,759 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:25:08,782 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 27 resources from src\main\resources to target\classes
+2024-10-13 01:25:08,824 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:26:41,569 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:26:41,593 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 27 resources from src\main\resources to target\classes
+2024-10-13 01:26:41,631 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:27:53,834 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:27:53,864 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 27 resources from src\main\resources to target\classes
+2024-10-13 01:27:53,896 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:28:24,975 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:28:25,001 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 27 resources from src\main\resources to target\classes
+2024-10-13 01:28:25,042 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:31:29,864 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:31:29,884 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 27 resources from src\main\resources to target\classes
+2024-10-13 01:31:29,938 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:34:03,836 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:34:03,860 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 27 resources from src\main\resources to target\classes
+2024-10-13 01:34:03,899 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:35:54,603 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:35:54,634 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:35:54,643 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:37:41,210 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:37:41,242 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:37:41,254 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:40:46,314 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:40:46,340 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:40:46,351 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:41:01,566 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:41:01,596 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:41:01,607 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:41:44,385 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:41:44,415 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:41:44,424 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:44:25,489 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:44:25,545 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 28 resources from src\main\resources to target\classes
+2024-10-13 01:44:25,605 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:44:34,086 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:44:34,106 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 28 resources from src\main\resources to target\classes
+2024-10-13 01:44:34,155 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:44:53,770 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:44:53,792 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 28 resources from src\main\resources to target\classes
+2024-10-13 01:44:53,838 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:44:59,317 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:44:59,342 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 28 resources from src\main\resources to target\classes
+2024-10-13 01:44:59,393 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:45:23,503 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:45:23,527 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:45:23,536 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:46:24,953 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:46:24,975 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:46:24,983 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:56:04,257 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:56:04,282 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:56:04,296 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 01:58:51,350 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 01:58:51,376 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 01:58:51,385 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:04:47,291 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:04:47,327 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:04:47,339 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:08:05,675 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:08:05,701 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:08:05,711 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:09:19,034 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:09:19,059 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:09:19,066 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:10:24,230 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:10:24,250 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:10:24,257 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:11:42,590 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:11:42,621 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:11:42,632 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:12:44,842 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:12:44,871 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:12:44,884 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:13:48,968 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:13:49,019 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:13:49,033 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:16:10,700 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:16:10,720 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:16:10,726 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:16:37,123 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:16:37,143 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:16:37,152 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:19:02,448 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:19:02,465 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:19:02,473 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:21:15,788 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:21:15,807 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:21:15,817 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:21:43,565 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:21:43,588 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2024-10-13 02:21:43,628 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:22:26,859 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:22:26,879 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2024-10-13 02:22:26,919 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:26:40,276 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:26:40,296 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:26:40,305 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:28:38,221 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:28:38,242 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:28:38,251 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:33:12,985 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:33:13,004 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:33:13,010 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:35:30,604 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:35:30,625 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:35:30,634 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:36:13,097 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:36:13,114 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:36:13,121 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:37:03,785 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:37:03,803 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:37:03,813 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:38:29,213 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:38:29,229 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:38:29,236 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:39:04,365 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:39:04,382 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:39:04,392 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:45:58,201 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:45:58,220 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2024-10-13 02:45:58,261 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:47:52,398 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:47:52,415 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:47:52,423 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:49:11,153 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:49:11,170 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:49:11,181 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:49:59,874 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:49:59,894 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:49:59,900 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:50:08,143 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:50:08,160 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:50:08,166 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:52:00,747 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:52:00,767 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:52:00,775 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:58:06,949 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:58:06,969 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 02:58:07,049 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:58:27,191 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:58:27,210 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 02:58:27,246 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 02:59:17,737 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 02:59:17,757 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 02:59:17,765 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:00:52,704 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:00:52,733 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:00:52,776 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:01:07,004 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:01:07,022 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:01:07,030 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:03:14,867 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:03:14,885 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:03:14,891 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:04:19,603 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:04:19,625 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:04:19,635 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:05:04,721 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:05:04,752 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:05:04,838 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:05:12,183 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:05:12,235 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:05:12,365 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:08:18,778 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:08:18,795 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:08:18,801 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:08:31,802 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:08:31,822 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:08:31,831 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:08:44,608 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:08:44,628 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:08:44,636 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:12:24,624 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:12:24,650 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:12:24,693 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:12:30,767 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:12:30,786 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:12:30,827 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:15:09,301 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:15:09,320 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:15:09,370 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:15:30,423 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:15:30,442 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:15:30,484 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:15:57,887 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:15:57,913 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:15:57,968 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:16:02,399 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:16:02,420 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:16:02,463 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:17:24,236 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:17:24,257 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:17:24,304 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:17:42,889 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:17:42,911 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:17:42,958 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:17:53,810 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:17:53,829 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:17:53,867 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:18:03,191 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:18:03,210 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:18:03,254 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:18:08,112 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:18:08,130 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:18:08,167 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:18:41,646 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:18:41,666 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2024-10-13 03:18:41,710 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources
+2024-10-13 03:24:49,642 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-13 03:24:49,663 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-13 03:24:49,671 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mauricio\Desktop\SpringProfe\EXAMENES\LP2_T2_RamirezEsparronMauricio\LP2_T2_RamirezEsparronMauricio\src\test\resources

@@ -1,0 +1,15 @@
+import org.springframework.data.jpa.repository.JpaRepository;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.EmpleadoEntity;
+import java.util.List;
+import java.util.Optional;
+
+public interface EmpleadoRepository extends JpaRepository<EmpleadoEntity, Integer> {
+
+    Optional<EmpleadoEntity> findByDniEmpleado(String dni);
+
+    List<EmpleadoEntity> findByAreaEntity_Id(Integer areaId);
+
+    List<EmpleadoEntity> findByNombreEmpleado(String nombre);
+
+    List<EmpleadoEntity> findByApellidoEmpleado(String apellido);
+}

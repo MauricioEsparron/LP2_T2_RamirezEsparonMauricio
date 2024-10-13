@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Área</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crear Nueva Área</h1>
+        <form id="crear-area-form">
+            <div class="form-group">
+                <label for="nombre_area">Nombre del Área</label>
+                <input type="text" class="form-control" id="nombre_area" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Crear Área</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('crear-area-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nombre_area = document.getElementById('nombre_area').value;
+
+            fetch('/areas', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ nombre_area })
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Área creada con éxito!');
+                    window.location.href = '/listar_areas.html'; // Redirigir a la lista de áreas
+                } else {
+                    alert('Error al crear el área.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

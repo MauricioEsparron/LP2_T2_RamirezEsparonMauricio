@@ -1,0 +1,52 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.EmpleadoEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.EmpleadosService;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/empleados")
+public class EmpleadoController {
+
+    @Autowired
+    private EmpleadosService empleadosService;
+
+    @GetMapping
+    public List<EmpleadoEntity> listarEmpleados() {
+        return empleadosService.buscarEmpleados();
+    }
+
+    @PostMapping
+    public ResponseEntity<EmpleadoEntity> crearEmpleado(@RequestBody EmpleadoEntity empleado) {
+        empleadosService.crearEmpleado(empleado);
+        return ResponseEntity.ok(empleado);
+    }
+
+    @GetMapping("/{dni}")
+    public ResponseEntity<EmpleadoEntity> buscarEmpleadoPorId(@PathVariable String dni) {
+        EmpleadoEntity empleado = empleadosService.buscarEmpleadoPorDni(dni);
+        if (empleado == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(empleado);
+    }
+
+    @GetMapping("/area/{areaId}")
+    public List<EmpleadoEntity> buscarEmpleadosPorArea(@PathVariable Integer areaId) {
+        return empleadosService.buscarEmpleadosPorArea(areaId);
+    }
+
+    @GetMapping("/nombre/{nombre}")
+    public List<EmpleadoEntity> buscarEmpleadosPorNombre(@PathVariable String nombre) {
+        return empleadosService.buscarEmpleadosPorNombre(nombre);
+    }
+
+    @GetMapping("/apellido/{apellido}")
+    public List<EmpleadoEntity> buscarEmpleadosPorApellido(@PathVariable String apellido) {
+        return empleadosService.buscarEmpleadosPorApellido(apellido);
+    }
+}

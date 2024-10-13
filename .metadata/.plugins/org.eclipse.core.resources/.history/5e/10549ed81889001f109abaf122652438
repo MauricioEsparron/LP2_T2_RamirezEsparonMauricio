@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva Área</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agregar Nueva Área</h1>
+        <form action="#" th:action="@{/area/guardar}" method="post">
+            <div class="form-group">
+                <label for="nombre_area">Nombre del Área</label>
+                <input type="text" id="nombre_area" name="nombre_area" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success">Guardar</button>
+            <a href="/area/lista" class="btn btn-danger">Cancelar</a>
+        </form>
+    </div>
+</body>
+</html>

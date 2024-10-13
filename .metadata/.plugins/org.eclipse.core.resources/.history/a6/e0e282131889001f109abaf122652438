@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Área</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registrar Área</h2>
+        <form th:action="@{/registrar_area}" th:object="${area}" method="post">
+            <div class="form-group">
+                <label for="nombre_area">Nombre del Área:</label>
+                <input type="text" id="nombre_area" th:field="*{nombre_area}" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+        </form>
+        <a href="/listar_areas" class="btn btn-link">Volver a listar áreas</a>
+    </div>
+</body>
+</html>

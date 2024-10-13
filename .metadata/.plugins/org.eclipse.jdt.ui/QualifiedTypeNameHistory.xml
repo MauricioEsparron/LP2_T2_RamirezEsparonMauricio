@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.entity.AreaEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.EmpleadoEntity"/>
+    <fullyQualifiedTypeName name="pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.impl.AreaServiceImpl"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonTypeInfo.Id"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity"/>
+    <fullyQualifiedTypeName name="pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityNotFoundException"/>
+</qualifiedTypeNameHistroy>

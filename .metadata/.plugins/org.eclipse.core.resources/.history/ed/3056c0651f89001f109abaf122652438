@@ -1,0 +1,44 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.repository.AreaRepository; // Asegúrate de tener un repositorio para manejar las operaciones de la base de datos
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class AreaServiceImpl implements AreaService {
+
+    @Autowired
+    private AreaRepository areaRepository; 
+
+    @Override
+    public List<AreaEntity> buscarAreas() {
+        return areaRepository.findAll(); 
+    }
+
+    @Override
+    public void crearArea(AreaEntity area) {
+        areaRepository.save(area);
+    }
+
+    @Override
+    public AreaEntity buscarAreaPorId(Integer id) {
+        Optional<AreaEntity> areaOptional = areaRepository.findById(id);
+        return areaOptional.orElse(null); // Retornar el área o null si no existe
+    }
+
+    @Override
+    public void eliminarArea(Integer id) {
+        areaRepository.deleteById(id); // Eliminar el área por ID
+    }
+
+    @Override
+    public void actualizarArea(Integer id, AreaEntity area) {
+        area.setId(id); // Asegurarse de que el ID del área sea el correcto
+        areaRepository.save(area); // Actualizar el área
+    }
+}

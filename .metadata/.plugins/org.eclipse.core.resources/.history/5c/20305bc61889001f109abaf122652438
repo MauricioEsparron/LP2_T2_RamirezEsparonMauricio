@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Áreas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Áreas</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre del Área</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="area : ${areas}">
+                    <td th:text="${area.id}"></td>
+                    <td th:text="${area.nombre_area}"></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="/area/nueva" class="btn btn-primary">Agregar Nueva Área</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Listar Empleados</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Listado de Empleados</h1>
+        <a href="/empleado/registrar_empleado" class="btn btn-primary mb-3">Crear Nuevo Empleado</a>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>DNI</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Área</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="empleado : ${lista_empleados}">
+                    <td th:text="${empleado.dniEmpleado}"></td>
+                    <td th:text="${empleado.nombreEmpleado}"></td>
+                    <td th:text="${empleado.apellidoEmpleado}"></td>
+                    <td th:text="${empleado.correo}"></td>
+                    <td th:text="${empleado.areaEntity.nombreArea}"></td>
+                    <td>
+                        <a th:href="@{/empleado/detalle_empleado/{dni}(dni=${empleado.dniEmpleado})}" class="btn btn-info">Detalles</a>
+                        <a th:href="@{/empleado/editar_empleado/{dni}(dni=${empleado.dniEmpleado})}" class="btn btn-warning">Editar</a>
+                        <a th:href="@{delete/{dni}(dni=${empleado.dniEmpleado})}" class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

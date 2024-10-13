@@ -1,0 +1,38 @@
+<!-- registrar_empleado.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registrar Empleado</title>
+</head>
+<body>
+    <h1>Registrar Empleado</h1>
+    <form th:action="@{/registrar_empleado}" th:object="${empleado}" method="post">
+        <label for="dni_empleado">DNI:</label>
+        <input type="text" id="dni_empleado" th:field="*{dni_empleado}" required maxlength="8"/><br/>
+        
+        <label for="nombre_empleado">Nombre:</label>
+        <input type="text" id="nombre_empleado" th:field="*{nombre_empleado}" required maxlength="45"/><br/>
+        
+        <label for="apellido_empleado">Apellido:</label>
+        <input type="text" id="apellido_empleado" th:field="*{apellido_empleado}" required maxlength="45"/><br/>
+        
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" th:field="*{fecha_nacimiento}" required/><br/>
+        
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" th:field="*{direccion}" required maxlength="45"/><br/>
+        
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" th:field="*{correo}" required maxlength="45"/><br/>
+        
+        <label for="fk_area">Área:</label>
+        <select id="fk_area" th:field="*{areaEntity}" required>
+            <!-- Aquí debes llenar las opciones desde la base de datos -->
+            <option th:each="area : ${areas}" th:value="${area}" th:text="${area.nombre_area}"></option>
+        </select><br/>
+
+        <button type="submit">Registrar</button>
+    </form>
+    <a href="/listar_empleados">Volver</a>
+</body>
+</html>

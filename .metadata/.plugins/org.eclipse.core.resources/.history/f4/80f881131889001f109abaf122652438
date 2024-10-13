@@ -1,0 +1,31 @@
+<!-- listar_empleados_por_area.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Empleados por Área</title>
+</head>
+<body>
+    <h1>Empleados por Área</h1>
+    <table>
+        <tr>
+            <th>DNI</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Acciones</th>
+        </tr>
+        <tr th:each="empleado : ${empleados}">
+            <td th:text="${empleado.dni_empleado}"></td>
+            <td th:text="${empleado.nombre_empleado}"></td>
+            <td th:text="${empleado.apellido_empleado}"></td>
+            <td>
+                <a th:href="@{/editar_empleado?dni=${empleado.dni_empleado}}">Editar</a>
+                <form th:action="@{/eliminar_empleado}" method="post" style="display:inline;">
+                    <input type="hidden" name="dni" th:value="${empleado.dni_empleado}"/>
+                    <button type="submit">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <a href="/listar_empleados">Volver</a>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service;
+
+public interface EmpleadoService {
+
+}

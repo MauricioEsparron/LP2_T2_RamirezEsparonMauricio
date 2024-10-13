@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Áreas</title>
+</head>
+<body>
+    <h1>Lista de Áreas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre del Área</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="area : ${areas}">
+                <td th:text="${area.id}"></td>
+                <td th:text="${area.nombre_area}"></td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="/areas/crear">Crear Nueva Área</a>
+</body>
+</html>

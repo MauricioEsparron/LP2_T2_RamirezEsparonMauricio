@@ -1,0 +1,63 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.EmpleadoEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.repository.EmpleadoRepository;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.EmpleadosService;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@Service
+public class EmpleadoServiceImpl implements EmpleadosService {
+
+    @Autowired
+    private EmpleadoRepository empleadoRepository;
+
+    @Autowired
+    private AreaService areaService;
+
+    @Override
+    public List<EmpleadoEntity> buscarEmpleados() {
+        return empleadoRepository.findAll();
+    }
+
+    @Override
+    public void crearEmpleado(EmpleadoEntity empleado) {
+        empleadoRepository.save(empleado);
+    }
+
+    @Override
+    public EmpleadoEntity buscarEmpleadoPorId(String dni) {
+        return empleadoRepository.findById(dni).orElse(null);
+    }
+
+    @Override
+    public List<EmpleadoEntity> buscarEmpleadosPorArea(Integer areaId) {
+        return empleadoRepository.findByAreaEntity_Id(areaId);
+    }
+
+    @Override
+    public void actualizarEmpleado(String dni, EmpleadoEntity empleadoEntity) {
+        if (empleadoRepository.existsById(dni)) {
+            empleadoEntity.setDniEmpleado(dni);
+            empleadoRepository.save(empleadoEntity);
+        }
+    }
+
+    @Override
+    public void eliminarEmpleado(String dni) {
+        empleadoRepository.deleteById(dni);
+    }
+
+    @Override
+    public List<EmpleadoEntity> buscarEmpleadosPorNombre(String nombre) {
+        return empleadoRepository.findByNombreEmpleadoContainingIgnoreCase(nombre);
+    }
+
+    @Override
+    public List<EmpleadoEntity> buscarEmpleadosPorApellido(String apellido) {
+        return empleadoRepository.findByApellidoEmpleadoContainingIgnoreCase(apellido);
+    }
+}

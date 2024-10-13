@@ -1,0 +1,11 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service;
+
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity;
+
+import java.util.List;
+
+public interface AreaService {
+    List<AreaEntity> listarAreas();
+    void crearArea(AreaEntity area);
+    AreaEntity buscarAreaPorId(Integer id);
+}

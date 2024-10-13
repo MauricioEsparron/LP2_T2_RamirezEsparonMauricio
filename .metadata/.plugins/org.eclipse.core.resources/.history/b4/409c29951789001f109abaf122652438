@@ -1,0 +1,37 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/areas")
+public class AreaController {
+
+    @Autowired
+    private AreaService areaService;
+
+    @GetMapping
+    public List<AreaEntity> listarAreas() {
+        return areaService.listarAreas();
+    }
+
+    @PostMapping
+    public ResponseEntity<AreaEntity> crearArea(@RequestBody AreaEntity area) {
+        areaService.crearArea(area);
+        return ResponseEntity.ok(area);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<AreaEntity> buscarAreaPorId(@PathVariable Integer id) {
+        AreaEntity area = areaService.buscarAreaPorId(id);
+        if (area == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(area);
+    }
+}

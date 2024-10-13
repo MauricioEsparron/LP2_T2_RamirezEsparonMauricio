@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Listar Áreas</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Áreas</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="area : ${lista_areas}">
+                    <td th:text="${area.nombre}"></td>
+                    <td th:text="${area.descripcion}"></td>
+                    <td>
+                        <a th:href="@{/areas/detalle/{id}(id=${area.id})}">Ver Detalles</a>
+                        <a th:href="@{/areas/editar/{id}(id=${area.id})}">Editar</a>
+                        <a th:href="@{/areas/delete/{id}(id=${area.id})}">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <a th:href="@{/areas/crear}">Crear Nueva Área</a>
+    </div>
+</body>
+</html>

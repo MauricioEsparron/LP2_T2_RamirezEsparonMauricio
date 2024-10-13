@@ -1,0 +1,46 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.AreaEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/areas")
+public class AreaController {
+
+    @Autowired
+    private AreaService areaService;
+
+    @GetMapping
+    public String listarAreas(Model model) {
+        List<AreaEntity> areas = areaService.listarAreas();
+        model.addAttribute("areas", areas); // Agregar la lista de áreas al modelo
+        return "listar_areas"; // Retornar el nombre de la vista
+    }
+
+    @PostMapping
+    public ResponseEntity<AreaEntity> crearArea(@RequestBody AreaEntity area) {
+        areaService.crearArea(area);
+        return ResponseEntity.ok(area);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<AreaEntity> buscarAreaPorId(@PathVariable Integer id) {
+        AreaEntity area = areaService.buscarAreaPorId(id);
+        if (area == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(area);
+    }
+
+    @GetMapping("/crear")
+    public String crearAreaForm() {
+        return "crear_area"; // Retornar el nombre de la vista para crear área
+    }
+}

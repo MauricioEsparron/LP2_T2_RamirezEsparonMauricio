@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Listar Áreas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Listar Áreas</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre del Área</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="area : ${areas}">
+                    <td th:text="${area.area_id}"></td>
+                    <td th:text="${area.nombre_area}"></td>
+                    <td>
+                        <a th:href="@{/editar_area(id=${area.area_id})}" class="btn btn-warning">Editar</a>
+                        <form th:action="@{/eliminar_area}" method="post" style="display:inline;">
+                            <input type="hidden" name="id" th:value="${area.area_id}"/>
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="/registrar_area" class="btn btn-primary">Registrar Nueva Área</a>
+    </div>
+</body>
+</html>

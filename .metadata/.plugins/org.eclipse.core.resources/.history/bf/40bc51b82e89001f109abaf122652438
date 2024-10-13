@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registrar Empleado</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar Nuevo Empleado</h1>
+        <form th:action="@{/empleado/registrar_empleado}" th:object="${empleado}" method="post">
+            <div class="form-group">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" th:field="*{dniEmpleado}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" th:field="*{nombreEmpleado}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" th:field="*{apellidoEmpleado}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" th:field="*{correo}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" th:field="*{direccion}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" th:field="*{fechaNacimiento}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="area">Área:</label>
+                <select id="area" th:field="*{areaEntity}" class="form-control" required>
+                    <option value="" disabled selected>Selecciona un área</option>
+                    <option th:each="area : ${listaAreas}" th:value="${area.id}" th:text="${area.nombreArea}"></option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Crear Empleado</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

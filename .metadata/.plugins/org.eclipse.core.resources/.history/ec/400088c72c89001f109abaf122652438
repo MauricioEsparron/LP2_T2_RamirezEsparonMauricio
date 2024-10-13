@@ -1,0 +1,76 @@
+package pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.model.entity.EmpleadoEntity;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.EmpleadosService;
+import pe.com.cibertec.LP2_T2_RamirezEsparronMauricio.service.AreaService;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/empleado")  // Ruta base para empleados
+public class EmpleadoController {
+
+    @Autowired
+    private EmpleadosService empleadosService;
+    
+    @Autowired
+    private AreaService areaService;
+
+    // Listar empleados
+    @GetMapping("/")
+    public String listarEmpleados(Model model) {
+        List<EmpleadoEntity> listaEmpleados = empleadosService.buscarEmpleados();
+        model.addAttribute("lista_empleados", listaEmpleados);
+        return "listar_empleados";
+    }
+
+    // Mostrar formulario para registrar un empleado
+    @GetMapping("/registrar_empleado")
+    public String mostrarRegistrarEmpleado(Model model) {
+        model.addAttribute("empleado", new EmpleadoEntity());
+        model.addAttribute("lista_areas", areaService.buscarAreas()); // Para seleccionar el área
+        return "registrar_empleado";
+    }
+
+    // Registrar un nuevo empleado
+    @PostMapping("/registrar_empleado")
+    public String registrarEmpleado(@ModelAttribute("empleado") EmpleadoEntity empleado, Model model) {
+        empleadosService.crearEmpleado(empleado);
+        return "redirect:/empleado/";  // Redirigir a la lista de empleados
+    }
+
+    // Ver detalle de un empleado
+    @GetMapping("/detalle_empleado/{dni}")
+    public String verDetalleEmpleado(Model model, @PathVariable("dni") String dni) {
+        EmpleadoEntity empleado = empleadosService.buscarEmpleadoPorDni(dni);
+        model.addAttribute("empleado", empleado);
+        return "detalle_empleado";
+    }
+
+    // Eliminar un empleado
+    @GetMapping("/delete/{dni}")
+    public String eliminarEmpleado(@PathVariable("dni") String dni) {
+        empleadosService.eliminarEmpleado(dni);
+        return "redirect:/empleado/";  // Redirigir a la lista de empleados
+    }
+
+    // Mostrar formulario para editar un empleado
+    @GetMapping("/editar_empleado/{dni}")
+    public String mostrarEditarEmpleado(@PathVariable("dni") String dni, Model model) {
+        EmpleadoEntity empleado = empleadosService.buscarEmpleadoPorDni(dni);
+        model.addAttribute("empleado", empleado);
+        model.addAttribute("lista_areas", areaService.buscarAreas()); // Para seleccionar el área
+        return "editar_empleado";
+    }
+
+    // Actualizar un empleado
+    @PostMapping("/editar_empleado/{dni}")
+    public String actualizarEmpleado(@PathVariable("dni") String dni, @ModelAttribute("empleado") EmpleadoEntity empleado, @RequestParam("areaId") Integer areaId, Model model) {
+        empleadosService.actualizarEmpleado(dni, empleado, areaId);
+        return "redirect:/empleado/";  // Redirigir a la lista de empleados
+    }
+}

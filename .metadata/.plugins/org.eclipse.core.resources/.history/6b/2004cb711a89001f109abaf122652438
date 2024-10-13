@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Áreas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de Áreas</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre del Área</th>
+                </tr>
+            </thead>
+            <tbody id="area-list">
+                <!-- Aquí se llenará la lista de áreas mediante JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        fetch('/areas')
+            .then(response => response.json())
+            .then(data => {
+                const areaList = document.getElementById('area-list');
+                data.forEach(area => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td>${area.id}</td><td>${area.nombre_area}</td>`;
+                    areaList.appendChild(row);
+                });
+            });
+    </script>
+</body>
+</html>
