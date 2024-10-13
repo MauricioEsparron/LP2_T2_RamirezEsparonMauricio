@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Error</h1>
+        <p>Ocurrió un error: <span th:text="${errorMessage}"></span></p>
+		<h1>btn1</h1>
+
+		<a href="/area/" class="btn btn-primary">Volver a la Lista de Areas</a>
+		<h1>btn2</h1>
+
+		<a href="/empleado/" class="btn btn-primary">Volver a la Lista de Empleados</a>
+
+    </div>
+</body>
+</html>

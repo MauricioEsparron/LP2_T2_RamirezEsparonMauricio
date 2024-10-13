@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Área</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Editar Área</h1>
+        <form th:action="@{/area/editar_area/{id}(id=${area.id})}" th:object="${area}" method="post">
+            <input type="hidden" th:field="*{id}" /> <!-- Asegúrate de incluir el campo ID -->
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" th:field="*{nombreArea}" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Actualizar Área</button>
+            <a th:href="@{/area/}" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</body>
+</html>

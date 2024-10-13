@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Empleado</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Editar Empleado</h1>
+        <form th:action="@{/empleado/editar_empleado/{dni}(dni=${empleado.dniEmpleado})}" th:object="${empleado}" method="post">
+            <input type="hidden" th:field="*{dniEmpleado}" /> <!-- Campo oculto para el DNI -->
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" th:field="*{nombreEmpleado}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" th:field="*{apellidoEmpleado}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" th:field="*{correo}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" th:field="*{direccion}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" th:field="*{fechaNacimiento}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="area">Área:</label>
+                <select id="area" th:field="*{areaEntity}" class="form-control" required>
+                    <option value="" disabled>Selecciona un área</option>
+                    <option th:each="area : ${listaAreas}" th:value="${area.id}" th:text="${area.nombreArea}"></option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Actualizar Empleado</button>
+            <a th:href="@{/empleado/}" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</body>
+</html>
